@@ -1,1 +1,138 @@
-@import "fonts.scss"
+@import "/SCSS/fonts.scss" ;
+@import "/SCSS/reset.scss";
+
+// header
+
+body{
+    margin: 0;
+}
+
+.container{
+	width: 100%;
+	max-width:1170px;
+	margin: 0 auto;
+}
+
+.header{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.header__inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	border-bottom: 1px solid #BABBC5;
+}
+
+.nav{
+	display: flex;
+    justify-content: space-between;
+	font-family: Raleway700;
+    font-size: 13px;
+    line-height: 15px;
+	text-transform: uppercase;
+	width: 670px;
+	height: 63px;
+}
+
+.nav__menu{
+	text-decoration: none;
+    color: #fff;
+	opacity: .90;
+	transition: opacity .15 linear;
+}
+
+.nav__menu a{
+	width: 134px;
+}
+
+.nav__menu:hover{
+	border-bottom: 3px solid #BABBC5;
+	opacity: 1;
+}
+
+// banner
+
+.banner{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 750px;
+	background: linear-gradient(to top, rgba(37,43,73,0.8), rgba(37,43,73,0.8)),
+	url(/img/banner_img.png);
+	background-size:cover ;
+	background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.banner__content{
+	text-align: center;
+
+}
+
+.banner__title{
+	font-family: Raleway900;
+	font-size: 64px;
+	line-height: 75px;
+	color:#fff;
+	text-transform: uppercase;
+}
+
+.banner__subtitle{
+	font-family: Raleway400;
+	font-size: 24px;
+	line-height: 28px;
+	color:#fff;
+	margin-top: 31px;
+	margin-bottom: 82px;
+}
+
+.banner__btn{
+	font-family: Raleway900;
+	font-size: 24px;
+	line-height: 28px;
+	color:#fff;
+	text-transform: uppercase;
+	width: 370px;
+	height: 80px;
+	background-color:#FF4343;
+}
+
+// Features
+
+.features__content{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.features__item{
+	width: 33.333%;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.feature__icon{
+	margin-bottom: 29px;
+	width: 100px;
+	height: 100px;
+}
+
+.feature__title{
+	font-family: Raleway900;
+	font-size: 24px;
+	line-height: 28px;
+	text-transform: uppercase;
+	width:370px;
+	height:72px;
+}
+
+.feature__text{
+	font-family: Raleway400;
+	font-size: 18px;
+	line-height: 21px;
+	margin-top: 20px;
+	width: 370px;
+}
