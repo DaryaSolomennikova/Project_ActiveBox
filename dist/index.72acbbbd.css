@@ -103,6 +103,7 @@ body {
   width: 100%;
   max-width: 1170px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header {
@@ -144,6 +145,13 @@ body {
 .nav__menu:hover {
   opacity: 1;
   border-bottom: 3px solid #babbc5;
+  transition: all .2s linear;
+}
+
+.nav__menu:active {
+  opacity: 1;
+  border-bottom: 3px solid #e71414;
+  transition: all .3s linear;
 }
 
 .banner {
@@ -193,8 +201,20 @@ body {
   line-height: 28px;
 }
 
+.banner__btn:hover {
+  background: #e71414;
+  transition: all .5s linear;
+}
+
+.banner__btn:active {
+  background: #ff4343;
+  transition: opacity .7s linear;
+  box-shadow: 4px 5px 30px #ff4343;
+}
+
 .features__content {
   flex-wrap: wrap;
+  margin-bottom: 100px;
   display: flex;
 }
 
@@ -225,6 +245,112 @@ body {
   font-family: Raleway400;
   font-size: 18px;
   line-height: 21px;
+}
+
+.works {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.works__item {
+  width: 25%;
+  height: 340px;
+  position: relative;
+}
+
+.works__img {
+  border: 2px solid #fff;
+  position: absolute;
+}
+
+.works__content {
+  text-align: center;
+  opacity: 0;
+  z-index: 2;
+  width: 379px;
+  height: 100%;
+  background: #ff4343cc;
+  flex-direction: column;
+  justify-content: center;
+  transition: opacity .2s linear;
+  display: flex;
+  position: absolute;
+}
+
+.works__item:hover .works__content {
+  opacity: 1;
+  border: 2px solid #fff;
+  transition: all .3s linear;
+}
+
+.works__item:active .works__content {
+  background: #b90c0ccc;
+  border: 2px solid #fff;
+  transition: all .3s linear;
+}
+
+.works__title {
+  text-transform: uppercase;
+  color: #fff;
+  height: 60px;
+  font-family: Raleway900;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.works__text {
+  color: #fff;
+  font-family: Raleway400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.team {
+  margin: 114px 0;
+}
+
+.team__content {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.team__item {
+  width: 25%;
+  margin-bottom: 30px;
+  padding: 0 15px;
+}
+
+.team__photo {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.team__name {
+  height: 30px;
+  font-family: Raleway700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.team__position {
+  color: #ff4343;
+  text-transform: uppercase;
+  font-family: Raleway400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.team__text {
+  margin-top: 18px;
+  font-family: Raleway400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.social__icon {
+  margin-top: 38px;
 }
 
 /*# sourceMappingURL=index.72acbbbd.css.map */
