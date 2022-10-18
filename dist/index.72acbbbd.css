@@ -507,4 +507,43 @@ body {
   margin: 0 13px;
 }
 
+@media (max-width: 1024px) {
+  .banner {
+    height: 770px;
+  }
+
+  .banner__title {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .banner__subtitle {
+    font-size: 18px;
+    line-height: 21px;
+  }
+
+  .banner__btn, .features__item p {
+    width: 314px;
+  }
+
+  .feature__title {
+    width: 314px;
+    height: 60px;
+  }
+
+  .feature__icon {
+    width: 85px;
+    height: 85px;
+  }
+
+  .works__content, .works__img {
+    width: 257px;
+    height: 231px;
+  }
+
+  .works__item {
+    height: 231px;
+  }
+}
+
 /*# sourceMappingURL=index.72acbbbd.css.map */
