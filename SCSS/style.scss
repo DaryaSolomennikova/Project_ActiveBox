@@ -265,3 +265,164 @@ body{
 .social__icon{
 	margin-top: 38px;
 }
+
+// reviews
+
+.reviews{
+	background-color: #5C3249;
+}
+
+.reviews__item{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.reviews__photo{
+	width: 50%;
+	height: 490px;
+	position: relative;
+}
+
+.reviews__image{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.reviews__content{
+	display: flex;
+	flex-direction:column ;
+	justify-content: center;
+	width: 50%;
+	padding-left: 120px;
+	text-transform: capitalize; 
+}
+
+.reviews__content q{
+	font-family: Cardo400;
+	font-size: 36px;
+	line-height: 49px;
+	color:#fff;
+	width: 470px;
+	margin-bottom: 15px;
+}
+
+.reviews__content cite{
+	font-family: Raleway700;
+	font-size: 13px;
+	line-height: 15px;
+	color:#fff;
+}
+
+// download
+
+.download{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	height: 490px;
+}
+
+.download__content{
+	text-align: center;
+}
+
+.download__title{
+	font-family: Raleway500;
+	font-size: 30px;
+	line-height: 35px;
+}
+
+.download__subtitle{
+	font-family: Raleway700;
+	font-size: 18px;
+	line-height: 21px;
+	margin-top: 31px;
+	margin-bottom: 50px;
+}
+
+.download__btn{
+	font-family: Raleway900;
+	font-size: 24px;
+	line-height: 28px;
+	color:#fff;
+	text-transform: uppercase;
+	width: 370px;
+	height: 80px;
+	background-color:#FF4343;
+}
+
+.download__btn:hover{
+	background: #E71414;
+	transition: .5s linear;
+}
+
+.download__btn:active{
+	background: #FF4343;
+	box-shadow: 4px 5px 30px #FF4343;
+	transition: opacity .7s linear;
+}
+
+// footer
+
+.footer{
+	background-color: #353C65;
+}
+
+.footer__inner{
+	font-family: Raleway400;
+	font-size: 18px;
+	line-height: 21px;
+	color: #808080;
+	background-color:#2C3154;
+	width: 100%;
+	height: 90px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
+.footer__inner span{
+	color:#fff;
+}
+
+.footer__item{
+	display: flex;
+	flex-wrap:wrap ;
+	height: 250px;
+}
+
+.footer__content{
+	width:33.333%;
+	text-align: center;
+	margin-top: 71px;
+}
+
+.footer__content p{
+	font-family: Raleway400;
+	font-size: 18px;
+	line-height: 21px;
+	color: #fff;
+	margin-top: 29px;
+}
+
+.footer__title{
+	font-family: Raleway700;
+	font-size: 18px;
+	line-height: 21px;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.social__icons{
+	margin-top: 49px;
+}
+
+.social__icons img{
+	border: 1px solid #C6CBCD;
+	margin: 0 13px;
+	width: 39px;
+}
